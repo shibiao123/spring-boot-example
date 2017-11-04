@@ -6,5 +6,6 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Documented
 public @interface Action {
-    String name();
+    //注解的属性要有一个默认值 不然实际使用的时候  编译会报错
+    String name() default "";
 }
