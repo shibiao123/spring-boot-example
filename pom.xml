@@ -11,7 +11,9 @@
     <modules>
 
         <module>springboot-mybatis</module>
+        <module>spring-demo</module>
     </modules>
+
 
 
 
