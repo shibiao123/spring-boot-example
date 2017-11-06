@@ -1,6 +1,6 @@
 package com.spring.study.aspectj.service;
 
-import com.spring.study.annotation.newAnnotation.Action;
+import com.spring.study.aspectj.newAnnotation.Action;
 import org.springframework.stereotype.Service;
 
 @Service("demoAnnotaion")
