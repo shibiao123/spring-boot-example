@@ -1,4 +1,4 @@
-package com.test.spring.service;
+package com.spring.study.annotation.service;
 
 public class FunctionService {
 

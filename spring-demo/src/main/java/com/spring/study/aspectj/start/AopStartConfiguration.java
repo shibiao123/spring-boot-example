@@ -1,7 +1,7 @@
-package com.test.spring.start;
+package com.spring.study.aspectj.start;
 
-import com.test.spring.configuration.AopConfig;
-import com.test.spring.service.DemoAnnotation;
+import com.spring.study.aspectj.configuration.AopConfig;
+import com.spring.study.aspectj.service.DemoAnnotation;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

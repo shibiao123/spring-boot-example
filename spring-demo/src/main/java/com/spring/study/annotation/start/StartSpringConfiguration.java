@@ -1,11 +1,9 @@
-package com.test.spring.start;
+package com.spring.study.annotation.start;
 
-import com.test.spring.configuration.Config;
-import com.test.spring.service.UseFunctionService;
+import com.spring.study.annotation.configuration.Config;
+import com.spring.study.annotation.service.UseFunctionService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import javax.jws.soap.SOAPBinding;
 
 public class StartSpringConfiguration {
     public static void main(String[] args){

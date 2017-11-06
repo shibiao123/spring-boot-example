@@ -1,7 +1,7 @@
-package com.test.spring.configuration;
+package com.spring.study.annotation.configuration;
 
-import com.test.spring.service.FunctionService;
-import com.test.spring.service.UseFunctionService;
+import com.spring.study.annotation.service.FunctionService;
+import com.spring.study.annotation.service.UseFunctionService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

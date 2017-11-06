@@ -1,4 +1,4 @@
-package com.test.spring.annotation;
+package com.spring.study.aspectj.newAnnotation;
 
 import java.lang.annotation.*;
 
