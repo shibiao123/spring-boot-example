@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo" />
+        <module name="springboot-autoConfigPlugin" />
         <module name="springboot-mybatis" />
+        <module name="springboot-useAutoPlugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-demo" target="1.8" />
+      <module name="springboot-autoConfigPlugin" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-useAutoPlugin" target="1.8" />
       <module name="springbootexample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
