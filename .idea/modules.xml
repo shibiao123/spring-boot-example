@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-autoConfigPlugin/springboot-autoConfigPlugin.iml" filepath="$PROJECT_DIR$/springboot-autoConfigPlugin/springboot-autoConfigPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-useAutoPlugin/springboot-useAutoPlugin.iml" filepath="$PROJECT_DIR$/springboot-useAutoPlugin/springboot-useAutoPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootexample.iml" filepath="$PROJECT_DIR$/springbootexample.iml" />
     </modules>
   </component>
