@@ -15,6 +15,7 @@
         <module>springboot-autoConfigPlugin</module>
         <module>springboot-useAutoPlugin</module>
         <module>springboot-web</module>
+
     </modules>
 
 
