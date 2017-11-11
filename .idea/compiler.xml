@@ -18,7 +18,7 @@
       <module name="springboot-autoConfigPlugin" target="1.5" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-useAutoPlugin" target="1.6" />
-      <module name="springboot-web" target="1.6" />
+      <module name="springboot-web" target="1.8" />
       <module name="springboot-webdemo" target="1.6" />
       <module name="springbootexample" target="1.5" />
     </bytecodeTargetLevel>

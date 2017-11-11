@@ -1,14 +1,11 @@
-package com.springboot.web;
+package demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Created by shibiao on 2017/11/9.
- */
 @SpringBootApplication
-public class SpringBootWebApplicationContext {
+public class DemoApplication {
     public static void main(String[] args){
-        SpringApplication.run(SpringBootWebApplicationContext.class,args);
+        SpringApplication.run(DemoApplication.class,args);
     }
 }
