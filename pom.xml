@@ -13,7 +13,6 @@
         <module>springboot-mybatis</module>
         <module>spring-demo</module>
         <module>springboot-autoConfigPlugin</module>
-        <module>springboot-useAutoPlugin</module>
         <module>springboot-web</module>
 
     </modules>
