@@ -4,8 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-autoConfigPlugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-useAutoPlugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-druid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-webdemo" charset="UTF-8" />
   </component>
 </project>
