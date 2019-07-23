@@ -16,6 +16,7 @@
         <module>springboot-web</module>
         <module>springboot-mybatis-druid</module>
         <module>springboot-mybatis-redis</module>
+        <module>springboot-elasticjob</module>
 
     </modules>
 
