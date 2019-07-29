@@ -61,6 +61,7 @@
     <build>
         <plugins>
             <plugin>
+                <!--使用此插件，就可以打包成jar war,可以直接用java -jar命令直接运行-->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
