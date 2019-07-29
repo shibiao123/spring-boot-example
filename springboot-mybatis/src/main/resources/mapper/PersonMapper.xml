@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.test.PersonMapper" >
-  <resultMap id="BaseResultMap" type="com.test.Person" >
+<mapper namespace="com.test.boot.dao.PersonMapper" >
+  <resultMap id="BaseResultMap" type="com.test.boot.dto.Person" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="age" property="age" jdbcType="INTEGER" />
@@ -19,13 +19,13 @@
     delete from person
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.test.Person" >
+  <insert id="insert" parameterType="com.test.boot.dto.Person" >
     insert into person (id, name, age
       )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.test.Person" >
+  <insert id="insertSelective" parameterType="com.test.boot.dto.Person" >
     insert into person
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -50,7 +50,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.test.Person" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.test.boot.dto.Person" >
     update person
     <set >
       <if test="name != null" >
@@ -62,7 +62,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.test.Person" >
+  <update id="updateByPrimaryKey" parameterType="com.test.boot.dto.Person" >
     update person
     set name = #{name,jdbcType=VARCHAR},
       age = #{age,jdbcType=INTEGER}
